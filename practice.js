@@ -1,4 +1,7 @@
-let dog = "big";
-const dogName = "Rover"
-let x = 25 
-x = y + x
+function sayHello () {
+    return "hello world!";
+}
+
+function addOne (num) {
+    return (num + 1);
+}
