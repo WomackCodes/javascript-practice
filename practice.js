@@ -5,3 +5,8 @@ function sayHello () {
 function addOne (num) {
     return (num + 1);
 }
+
+function tester (param) {
+    return `${param} is working!`
+}
+        
