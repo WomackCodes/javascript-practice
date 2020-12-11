@@ -1,0 +1,19 @@
+{
+  "name": "js-practice",
+  "version": "1.0.0",
+  "description": "Practice for interviews and beyond!",
+  "main": "practice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WomackCodes/javascript-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WomackCodes/javascript-practice/issues"
+  },
+  "homepage": "https://github.com/WomackCodes/javascript-practice#readme"
+}
