@@ -20,3 +20,10 @@ const b = 5;
 let add = function() {
     return a + b;
 }
+
+const bones = 206;
+const boneNecklace = 32;
+let howManyBoneNecklaces = Math.floor(bones / boneNecklace);
+const bonesLeft = bones % boneNecklace;
+
+console.log(`There will be ${howManyBoneNecklaces} bone necklaces made from a human body, with ${bonesLeft} bones left over!`);
