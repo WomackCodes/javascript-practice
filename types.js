@@ -21,9 +21,24 @@ let add = function() {
     return a + b;
 }
 
+const myKids = {
+    toddlers: true,
+    messy: true,
+    cuteLevel: 100,
+}
+
 const bones = 206;
 const boneNecklace = 32;
 let howManyBoneNecklaces = Math.floor(bones / boneNecklace);
 const bonesLeft = bones % boneNecklace;
 
+let somthingUndefined;
+const somethingNull = null;
+
 console.log(`There will be ${howManyBoneNecklaces} bone necklaces made from a human body, with ${bonesLeft} bones left over!`);
+
+
+let isDrawing = false;
+let age = 19;
+const legalDrinking = age > 21;
+console.log(legalDrinking);
