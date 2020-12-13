@@ -56,3 +56,5 @@ function handleClick() {
     console.log("Yep, this click has been handled.")
 }
 
+setTimeout(womack.hireMe, 2000)
+
