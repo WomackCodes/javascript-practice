@@ -4,3 +4,15 @@ function init () {
 }
 
 document.addEventListener('DOMContentLoaded', init());
+
+let add = function (x, y, z) {
+  const x = x;
+  const y = y;
+  const z = z;
+  let result;
+
+  while (x < z) {
+     result = x + z;
+    return result;
+}
+}
